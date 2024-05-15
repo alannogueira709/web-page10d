@@ -5,6 +5,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 function Controle() {
+        // eslint-disable-next-line
         const [isMouseDown, setIsMouseDown] = useState(false);
     
         const handleMouseDown = () => {
