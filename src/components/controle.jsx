@@ -19,7 +19,8 @@ function Controle() {
         };
     
     return(
-        <div>
+        <div class=''>
+            <h1 className='bg-black text-white'>Controle</h1>
             <button variant="contained" color="primary" onMouseDown={handleMouseDown} 
                 onMouseUp={handleMouseUp}>
                <ArrowDownwardIcon />

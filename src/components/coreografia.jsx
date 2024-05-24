@@ -7,7 +7,7 @@ function Coreografia() {
         console.log('Coreografia iniciada');
     }
     return (
-        <div>
+        <div class=''>
             <Button variant="contained" color="primary" onClick={handleCoreografiaClick}>
                 Coreografia
             </Button>

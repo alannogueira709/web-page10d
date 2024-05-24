@@ -46,7 +46,7 @@ function Giroscopio() {
 
   return (
     <div>
-      <button onClick={requestPermission}>Permitir Orientação</button>
+      <button className="flex-none w-48 relative" onClick={requestPermission}>Permitir Orientação</button>
       
       <div>
         X: {gyroData.x?.toFixed(3)}
