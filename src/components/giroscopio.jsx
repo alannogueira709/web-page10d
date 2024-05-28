@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 
+
 function Giroscopio() {
   const [gyroData, setGyroData] = useState({
     x: null,
